@@ -11,7 +11,6 @@
   inputs.src-libgit2-master.ref   = "refs/heads/master";
   inputs.src-libgit2-master.owner = "barcharcraz";
   inputs.src-libgit2-master.repo  = "libgit2-nim";
-  inputs.src-libgit2-master.dir   = "";
   inputs.src-libgit2-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
